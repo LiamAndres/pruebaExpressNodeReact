@@ -1,16 +1,16 @@
-## Entregable: Crear archivo README.md en el repositiorio con: 
+### Node.js Express React
+### Javacript Html CSS
+### SQL MySQL Sequelize
 
-### ●Una breve descripción de la oferta de productos y/o servicios ofrecidos por su sitio. También agregar una breve descripción del público al que apunta el sitio.
+### ● prueba de desarrollo web fullstack.
 	
 ### GPUOnline ofrece tarjetas gráficas de diferentes referencias y capacidades para propósitos y usos, ya sea gpus para trabajo, gamer, o streaming.
 
-#### ●Una breve descripción de los integrantes del equipo. 
-#### Claudia Betancourt, Estudiante Full Stack 	
-#### Sebastian Bernal, Estudiante Full Stack 
-#### Liam Evans, Estudiante Full Stack 
+### Trabajo en equipo colaborativo 
 
 
-### ●Buscar inspiración en referentes del mercado:
+
+### ● inspiración :
 
 #### 1. https://www.nvidia.com/es-la/geforce/graphics-cards/
 #### 1. Me gusta los colores y su estructura
