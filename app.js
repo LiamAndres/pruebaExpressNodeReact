@@ -1,7 +1,8 @@
 //require express
 const express = require('express');
 //para usar las rutas estaticas
-const path = require('path'); 
+const path = require('path');
+const session = require('express-session');
 
 const app = express();
 const mainRoutes = require("./src/routes/mainRoutes");
@@ -14,6 +15,7 @@ app.use(express.json());
 
 // Asegurando la compatibilidad con PUT y DELETE
 const methodOverride = require("method-override");
+//const session = require('express-session');
 app.use(methodOverride("_method"));
 
 //variable para subir a heroku || puerto 3000
@@ -28,6 +30,13 @@ app.use(express.static("public"));
 //ojo!!! cuidado!!! alerta!!! pasar views 
 app.set("view engine", "ejs");
 app.set("views", "./src/views");
+
+//session
+app.use(session({
+    secret: "palabra secret",
+    resave: false,
+    saveUninitialized: true,
+}));
 
 //escuchar navegador al servidor express heroku || puerto 3000
 app.listen( PORT, ()=> console.log(`corriendo servidor con Express en el puerto ${PORT}`) );

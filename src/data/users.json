@@ -1,23 +1,51 @@
-[{
-    "id": 1,
-    "first_name": "Sebastian",
-    "last_name": "Bernal",
-    "user_name": "juansebernal",
-    "email": "jusebemas@gmail.com",
-    "password": "arrozconleche"
-  }, {
-    "id": 2,
-    "first_name": "Liam",
-    "last_name": "Evans",
-    "user_name": "liamevans",
-    "email": "liamandresevans@gmail.com",
-    "password": "jEhFV13yd"
-  }, {
-    "id": 3,
-    "first_name": "Claudia",
-    "last_name": "Betancour",
-    "user_name": "Byrom",
-    "email": "clau@gmail.com",
-    "password": "ITVNEZ"
-  }
+[
+ {
+  "id": 1,
+  "first_name": "Sebastian",
+  "last_name": "Bernal",
+  "user_name": "juansebernal",
+  "email": "jusebemas@gmail.com",
+  "password": "arrozconleche"
+ },
+ {
+  "id": 2,
+  "first_name": "Liam",
+  "last_name": "Evans",
+  "user_name": "liamevans",
+  "email": "liamandresevans@gmail.com",
+  "password": "jEhFV13yd"
+ },
+ {
+  "id": 3,
+  "first_name": "Claudia",
+  "last_name": "Betancour",
+  "user_name": "Byrom",
+  "email": "clau@gmail.com",
+  "password": "ITVNEZ"
+ },
+ {
+  "id": 4,
+  "password": "1234",
+  "first_name": "qweqwe",
+  "last_name": "qweqweqwe",
+  "user_name": "fsdfsdf",
+  "email": "a@s.com",
+  "mes": "2022-03-03",
+  "hobby": "PC Multimedia",
+  "image": "no existe"
+ },
+ {
+  "id": 5,
+  "first_name": "qweqw",
+  "last_name": "rewrwe",
+  "user_name": "qweqw",
+  "email": "a@g.com",
+  "password": "$2a$10$C6A8e1kkKH5bMoKukDC8GussQ0NzrRGS/LTCpHVVGqAwzEfVxNdkG",
+  "mes": "2022-03-01",
+  "hobby": [
+   "PC Multimedia",
+   "PC Gaming"
+  ],
+  "image": "no existe"
+ }
 ]

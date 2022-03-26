@@ -17,6 +17,15 @@
             <a href="/carrito"><i class="fas fa-shopping-basket"></i></a>
             <a href="/"><i class="fas fa-user"></i></a>
         </div> <!--fin menu-top-header-->
+        <!-- ATEENCIOOOOOOON !!!!!!! mostrar sesion de usuario ************************ -->
+        <div>
+            <% if (req.session != undefined) { %> 
+            <p> 
+                <%= req.session.name %> 
+            </p>
+            <% } %> 
+        </div>
+        <!-- FIN mostrar sesion de usuario ************************ -->
     </div> <!--fin top-header-->
     
     <nav>
